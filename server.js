@@ -32,6 +32,8 @@ var myMiddleware = (req, res, next) => {
   console.log('Headers', headers.length);
   console.log("values", values.length);
   res.send(`${headers} \n ${values}`);
+  /// post this stuff somewhere in the html page
+  
 
 
   next();

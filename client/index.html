@@ -2,17 +2,20 @@
 <html>
   <head>
     <title>CSV REPORT GENERATOR</title>
+    <link rel="stylesheet" href="styles.css"> 
   </head>
   <body>
     <h1>Hello world</h1>
     <form method="POST" action="/">
-      <label for="text">Data to convert to CSV</label>
+      <label class="label" for="text">Enter your JSON here</label>
       <br/>
-      <textarea name="text" id="text" value="HelloWorld"></textarea>
+      <textarea class="textArea" name="text" id="text" value="HelloWorld"></textarea>
       <br/>
-      <button>submit</button>
+      <button>Convert JSON to CSV</button>
     </form> 
-    <textarea>{
+    <label for="moText">Result Data</label>
+    <br/>
+    <textarea id="text" class="textArea">{
       "title": "Apple to halt sales of iPhone 4S in China (Fame Dubai Blog)",
       "description": "SHANGHAI – Apple Inc said on Friday it will stop selling its latest iPhone in its retail stores in Beijing and Shanghai to ensure the safety of its customers and employees. Go to SourceSource : Fame Dubai BlogExplore : iPhone, iPhone 4, Phone",
       "link": "http://wik.io/info/US/309198933",

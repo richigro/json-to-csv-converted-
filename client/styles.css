@@ -1,0 +1,12 @@
+* {
+    /* color: red; */
+}
+.textArea {
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    width: 600px;
+}
+.btn {
+    width: 30px;
+}
